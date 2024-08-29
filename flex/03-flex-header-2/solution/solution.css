@@ -55,15 +55,15 @@ ul {
   padding: 8px;
 }
 
-ul {
+  ul {
   display: flex;
   margin: 0;
   padding: 0;
   gap: 16px;
-}
+} 
 
-.left, .right {
+  .left, .right {
   display: flex;
   align-items: center;
   gap: 16px;
-}
+}  
