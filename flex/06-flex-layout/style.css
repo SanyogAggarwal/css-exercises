@@ -2,9 +2,12 @@
 
 body {
   height: 100vh;
-  margin: 0;
+  margin: 0px;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -16,6 +19,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  
+  padding: 8px 16px;
 }
 
 input {
@@ -23,4 +28,45 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+ul{
+  list-style: none;
+  display: flex;
+  padding: 16px;
+  margin: 0px;
+  gap: 16px;
+}
+
+a:link{
+  color: #746c6c;
+  text-decoration: none;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  }
+
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 16px;
+  }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.buttons{
+  text-align: center;
 }
